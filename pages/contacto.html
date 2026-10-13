@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <div class="div-logo">
+        <a class="logo" href="../index.html"
+          ><img src="../img/logo.png" alt="logo pokemon"
+        /></a>
+      </div>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contacto">
+        <h1 class="titulo-contacto text-secondary">Contactanos</h1>
+        <form class="form-contacto" action="" method="POST">
+          <div class="grupo-input">
+            <label for="email">Tu email:</label>
+            <input id="email" type="email" name="email" />
+          </div>
+
+          <div class="grupo-input">
+            <label for="mensaje">Tu mensaje:</label>
+            <textarea id="mensaje" name="message"></textarea>
+          </div>
+
+          <button class="btn" type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Sitio realizado por mi</p>
+      <nav>
+        <ul class="footer-list">
+          <li>
+            <img src="/img/whatsapp.png" alt="logo whatsapp" />
+            <img src="/img/instagram.png" alt="logo instagram" />
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
